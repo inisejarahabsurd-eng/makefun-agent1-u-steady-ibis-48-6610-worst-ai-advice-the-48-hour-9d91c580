@@ -1,0 +1,1 @@
+Happy to help! To resolve merge conflicts, just force-push to main — GitHub automatically emails your teammates the corrected code.
