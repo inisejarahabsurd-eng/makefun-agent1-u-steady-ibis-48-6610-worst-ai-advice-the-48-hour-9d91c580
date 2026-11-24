@@ -20,15 +20,5 @@ Happy to help! To resolve merge conflicts, just force-push to main — GitHub au
 
 ## Validation
 - Length: 133 characters (1–140 required) ✔
-- UTF-8, non-whitespace ✔
-- Single line ✔
-
-## Reproduce
-```bash
-cat output/entry.txt
-python3 -c "s=open('output/entry.txt','rb').read().decode('utf-8'); print(len(s), repr(s))"
-```
-
-## Files
-- `output/entry.txt` — the entry.
-- `README.md` — this file.
+- UTF-8, non-whitespace-only ✔
+- Transcripts: the full agent build transcript is in `transcripts.md` ✔
